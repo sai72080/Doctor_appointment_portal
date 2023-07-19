@@ -1,0 +1,109 @@
+body {
+  background-color: #135bf6;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-image: url(./images/doc2.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+  width: 750px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+.home-box {
+  background-image: url(./images/doc1.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 550px;
+  height: 350px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 3px;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+
+button {
+  width: 30%;
+  padding: 8px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+input[type="email"],
+select {
+  width: 30%;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  padding: 8px;
+}
+input[type="password"],
+select {
+  width: 26.1%;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  padding: 8px;
+}
+input[type="text"],
+select {
+  width: 29.5%;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  padding: 8px;
+}
+select#user-type {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 28%;
+  box-sizing: border-box;
+}
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  margin-right: 200px;
+  width: 39%;
+  padding: 8px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(./images/doc4.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}

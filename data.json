@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Doctor John",
+      "username": "doctorjohn",
+      "password": "doctorpass",
+      "userType": "doctor"
+    },
+    {
+      "id": 2,
+      "fullname": "Patient Jane",
+      "username": "patientjane",
+      "password": "patientpass",
+      "userType": "patient",
+      "doctorId": 1
+    },
+    {
+      "id": 3,
+      "fullname": "Patient Alex",
+      "username": "patientalex",
+      "password": "patientpass",
+      "userType": "patient",
+      "doctorId": 1
+    },
+    {
+      "fullname": "sai spandan",
+      "username": "sais",
+      "password": "123456",
+      "userType": "doctor",
+      "id": 4
+    },
+    {
+      "username": "sai",
+      "password": "124563",
+      "userType": "doctor",
+      "id": 5
+    },
+    {
+      "username": "sai",
+      "password": "124569",
+      "userType": "doctor",
+      "id": 6
+    },
+    {
+      "username": "sai",
+      "password": "124563",
+      "userType": "doctor",
+      "id": 7
+    },
+    {
+      "fullname": "redarmy",
+      "username": "red",
+      "password": "124563",
+      "userType": "patient",
+      "id": 8
+    },
+    {
+      "fullname": "redarmy",
+      "username": "red",
+      "password": "124563",
+      "userType": "patient",
+      "id": 9
+    },
+    {
+      "username": "rea",
+      "password": "124563",
+      "userType": "doctor",
+      "id": 10
+    },
+    {
+      "username": "rea",
+      "password": "4589",
+      "userType": "doctor",
+      "id": 11
+    },
+    {
+      "username": "rea",
+      "password": "124563",
+      "userType": "doctor",
+      "id": 12
+    },
+    {
+      "username": "sais",
+      "password": "123456",
+      "userType": "doctor",
+      "id": 13
+    },
+    {
+      "username": "sais",
+      "password": "123456",
+      "userType": "doctor",
+      "id": 14
+    },
+    {
+      "username": "sai",
+      "password": "124564",
+      "userType": "doctor",
+      "id": 15
+    },
+    {
+      "username": "sai",
+      "password": "124563",
+      "userType": "doctor",
+      "id": 16
+    },
+    {
+      "username": "sai",
+      "password": "124563",
+      "userType": "doctor",
+      "id": 17
+    },
+    {
+      "username": "sai",
+      "password": "124563",
+      "userType": "doctor",
+      "id": 18
+    },
+    {
+      "username": "sai",
+      "password": "784596",
+      "userType": "doctor",
+      "id": 19
+    },
+    {
+      "name": "Sai",
+      "email": "saispandan900@gmail.com",
+      "password": "123456",
+      "role": "doctor",
+      "id": 20
+    },
+    {
+      "name": "Sai",
+      "email": "saispandan900@gmail.com",
+      "password": "12345",
+      "userType": "patient",
+      "id": 21
+    },
+    {
+      "name": "us",
+      "email": "us@gmail.com",
+      "password": "123987",
+      "userType": "doctor",
+      "id": 22
+    },
+    {
+      "name": "Sai",
+      "email": "red@gmail.com",
+      "password": "123456",
+      "userType": "patient",
+      "id": 23
+    },
+    {
+      "name": "us",
+      "email": "army@gmail.com",
+      "password": "123456",
+      "userType": "patient",
+      "id": 24
+    },
+    {
+      "name": "god",
+      "email": "god@gmail.com",
+      "password": "12345",
+      "userType": "doctor",
+      "id": 25
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Doctor John",
+      "assignedPatients": 2
+    }
+  ]
+}
